@@ -1,0 +1,181 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    /* border: 1px solid red;  */
+}
+.timer{
+    background-color: rgb(122, 117, 117);
+    height: 60px;
+    width: 100%;
+    border-radius: 30px;
+}
+.internalslider{
+    background-color: rgb(26, 225, 26);
+    height: 40px;
+    width: 80%;
+    border-radius: 30px;
+    position: absolute;
+    top: 17px;
+    left: 100px;
+}
+.namecontainer{
+    background-color: rgb(122, 117, 117);
+    height: 120px;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+.status{
+    background-color: rgb(122, 117, 117);
+    position: relative;
+    top: 130px;
+    height: 40px;
+    width: 50%;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+}
+.complete_display{
+    background-color:#D9D9D9;
+    display: block;
+    margin-top:40px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 20px;
+    height: 41px;
+    width: 376px;
+    left: -189px;
+    top: -169px;
+    border-radius: 20px;
+}
+.text_display{
+ text-align: center;
+ color: rgb(136, 19, 19);
+ font-size: 20px;
+
+}
+.text_display1{
+    text-align: center;
+    margin-left: 10px;
+    color: rgb(134, 91, 209);
+    font-family: 'italic';
+    font-size: 24px;
+}
+.login{
+    background-color: aqua;
+    padding: 40px;
+    margin: 40px;
+    width: 450px;
+    border-radius: 30px;
+}
+.btn{
+    background-color: rgb(35, 108, 202);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.right_btn{
+    float: right ;
+    top: -20px;
+    position: relative;
+    padding: 20px 40px;
+}
+.nametext{
+    /* background-color: rgb(201, 54, 103); */
+
+}
+.inputtext{
+}
+.register_content{
+    border: 5px solid red;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+.first_line{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color:rgb(45, 20, 206)
+    
+}
+.second_line{
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(134, 91, 209)
+}
+
+/* .form_signup{
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border: 20px solid green; */
+    /* height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+} */
+/* .nametext{
+    border: 2px solid green;
+    text-align: center;
+    font-size: 25px;
+    height: 390px;
+    line-height: 40px;
+    width:500px;
+}
+.textinput{
+    text-align: center;
+    font-size: 30px;
+    height: 390px;
+    line-height: 30px;
+    /* margin-left: 50px; */
+/* }
+.form-cont{
+    border: 2px dotted blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-style{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 30px;
+} */
+/* .form-text{
+    
+} */ 
+.form-cont{
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    line-height: 50px;
+
+}
+.form_signup{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    line-height: 26px;
+    padding: 20px;
+  }
+  
+.textinput {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+  }
+.whole_form{
+    padding-right: 2px;
+}
